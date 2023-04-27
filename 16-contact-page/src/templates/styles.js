@@ -2,5 +2,6 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   ${({ theme }) => css`
     width: 50rem;
+    margin: 0 auto;
   `}
 `;
