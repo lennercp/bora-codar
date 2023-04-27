@@ -1,22 +1,18 @@
 export const theme = {
   colors: {
-    white: '#fff',
+    primary: '#1A1924',
+    secondary: '#16151E',
+    third: '#24243D',
 
-    purple100: '#996DFF',
-    purple200: '#7c3aed',
+    white: '#E1E1E6',
+    number: '#8C8CBA',
 
-    gray50: '#F8FAFC',
-    gray200: '#E2E8F0',
-    gray300: '#CBD5E1',
-    gray500: '#64748B',
-    gray600: '#475569',
-    gray800: '#1E293B',
-    gray900: '#0F172A',
-
-    green100: '#04D361',
-    green200: '#1B873F',
-
-    orange: '#FBA94C',
+    letter: {
+      a: '#633BBC',
+      b: '#07847E',
+      c: '#9A00B3',
+      d: '#9A00B3',
+    },
   },
   fonts: {
     primary: 'Titillium Web',

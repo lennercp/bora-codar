@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import * as Styled from './styles';
-import { ContainerCards } from '../components/ContainerCards';
+import { Head } from '../components/Head';
+import { ListContacts } from '../components/ListContacts';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <Styled.Container>
-      <h1>oi</h1>
+      <Head />
+      <ListContacts />
     </Styled.Container>
   );
 }
