@@ -8,3 +8,12 @@ export const Container = styled.div`
     background: ${theme.colors.secondary};
 `}
 `;
+export const ContainerHead = styled.div`
+	${({ theme }) => css`
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`}
+`;
