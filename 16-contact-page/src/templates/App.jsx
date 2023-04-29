@@ -1,15 +1,13 @@
-import { useState } from 'react';
 import * as Styled from './styles';
 import { Head } from '../components/Head';
 import { ListContacts } from '../components/ListContacts';
+import contacts from './contacts';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Styled.Container>
       <Head />
-      <ListContacts />
+      <ListContacts contacts={contacts} />
     </Styled.Container>
   );
 }
